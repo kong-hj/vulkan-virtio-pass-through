@@ -1,0 +1,3 @@
+/home/khj/vgpu-dev/guest_icd/build/CMakeFiles/vulkan_virtio_icd.dir
+/home/khj/vgpu-dev/guest_icd/build/CMakeFiles/edit_cache.dir
+/home/khj/vgpu-dev/guest_icd/build/CMakeFiles/rebuild_cache.dir

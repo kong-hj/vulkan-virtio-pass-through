@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -shared -Wl,-soname,libvulkan_virtio.so -o libvulkan_virtio.so CMakeFiles/vulkan_virtio_icd.dir/virtio_icd.c.o 

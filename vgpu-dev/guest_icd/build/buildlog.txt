@@ -1,0 +1,19 @@
+/usr/bin/cmake -S/home/khj/vgpu-dev/guest_icd -B/home/khj/vgpu-dev/guest_icd/build --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/khj/vgpu-dev/guest_icd/build/CMakeFiles /home/khj/vgpu-dev/guest_icd/build//CMakeFiles/progress.marks
+make  -f CMakeFiles/Makefile2 all
+make[1]: Entering directory '/home/khj/vgpu-dev/guest_icd/build'
+make  -f CMakeFiles/vulkan_virtio_icd.dir/build.make CMakeFiles/vulkan_virtio_icd.dir/depend
+make[2]: Entering directory '/home/khj/vgpu-dev/guest_icd/build'
+cd /home/khj/vgpu-dev/guest_icd/build && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/khj/vgpu-dev/guest_icd /home/khj/vgpu-dev/guest_icd /home/khj/vgpu-dev/guest_icd/build /home/khj/vgpu-dev/guest_icd/build /home/khj/vgpu-dev/guest_icd/build/CMakeFiles/vulkan_virtio_icd.dir/DependInfo.cmake --color=
+make[2]: Leaving directory '/home/khj/vgpu-dev/guest_icd/build'
+make  -f CMakeFiles/vulkan_virtio_icd.dir/build.make CMakeFiles/vulkan_virtio_icd.dir/build
+make[2]: Entering directory '/home/khj/vgpu-dev/guest_icd/build'
+[ 50%] Building C object CMakeFiles/vulkan_virtio_icd.dir/virtio_icd.c.o
+/usr/bin/cc -Dvulkan_virtio_icd_EXPORTS  -fPIC -std=gnu99 -MD -MT CMakeFiles/vulkan_virtio_icd.dir/virtio_icd.c.o -MF CMakeFiles/vulkan_virtio_icd.dir/virtio_icd.c.o.d -o CMakeFiles/vulkan_virtio_icd.dir/virtio_icd.c.o -c /home/khj/vgpu-dev/guest_icd/virtio_icd.c
+[100%] Linking C shared library libvulkan_virtio.so
+/usr/bin/cmake -E cmake_link_script CMakeFiles/vulkan_virtio_icd.dir/link.txt --verbose=1
+/usr/bin/cc -fPIC -shared -Wl,-soname,libvulkan_virtio.so -o libvulkan_virtio.so CMakeFiles/vulkan_virtio_icd.dir/virtio_icd.c.o 
+make[2]: Leaving directory '/home/khj/vgpu-dev/guest_icd/build'
+[100%] Built target vulkan_virtio_icd
+make[1]: Leaving directory '/home/khj/vgpu-dev/guest_icd/build'
+/usr/bin/cmake -E cmake_progress_start /home/khj/vgpu-dev/guest_icd/build/CMakeFiles 0
